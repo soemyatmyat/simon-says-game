@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="A fun replica of Among Us's Simon Says Mini Game, built with JavaScript, JQuery">
+    <title>Simon Says Game</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon"> <!-- 16 x 16 pixels -->  
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://soemyatmyat.github.io/pwa-BMI-calculator/">
+    <meta property="og:title" content="Simon Says Game">
+    <meta property="og:image" content="img/icons/favicon.ico">
+    <meta property="og:description" content="A fun replica of Among Us's Simon Says Mini Game, built with JavaScript, JQuery">
+    <meta property="og:site_name" content="Simon Says Game">
+    <!-- Next tags are optional but recommended -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- GA -->
+
+    <!-- Twitter cards -->
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#3f51b5">
+</head>
+<body>
+  <div id="start">
+    <h1 id="level-title">Click here to Start</h1>
+    <span>A replication of Among Us Reactor Simon Says!</span>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <!-- Progress bar -->
+        <div class="row">
+        <span id="dot0" class="dot"></span>
+        <span id="dot1" class="dot"></span>
+        <span id="dot2" class="dot"></span>
+        <span id="dot3" class="dot"></span>
+        <span id="dot4" class="dot"></span>
+        </div>
+        <!-- show box -->
+        <div class="row">
+          <div id="0" class="square"></div>
+          <div id="1" class="square"></div>
+          <div id="2" class="square"></div>
+        </div>
+        <div class="row">
+          <div id="3" class="square"></div>
+          <div id="4" class="square"></div>
+          <div id="5" class="square"></div>
+        </div>
+        <div class="row">
+          <div id="6" class="square"></div>
+          <div id="7" class="square"></div>
+          <div id="8" class="square"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <!-- Progress bar -->
+          <span id="bdot0" class="dot"></span>
+          <span id="bdot1" class="dot"></span>
+          <span id="bdot2" class="dot"></span>
+          <span id="bdot3" class="dot"></span>
+          <span id="bdot4" class="dot"></span>
+        </div>
+        <div class="row">
+          <div type="button" id="b0" class="butt square"></div>
+          <div type="button" id="b1" class="butt square"></div>
+          <div type="button" id="b2" class="butt square"></div>
+        </div>
+        <div class="row">
+          <div type="button" id="b3" class="butt square"></div>
+          <div type="button" id="b4" class="butt square"></div>
+          <div type="button" id="b5" class="butt square"></div>
+        </div>
+        <div class="row">
+          <div type="button" id="b6" class="butt square"></div>
+          <div type="button" id="b7" class="butt square"></div>
+          <div type="button" id="b8" class="butt square"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script src="game.js"></script>
+
+</body>
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Crafted by <a href="https://github.com/soemyatmyat">https://github.com/soemyatmyat</a>.</span>
+  </div>
+</footer>
+<footer></footer>
+</html>
